@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js"></script>
+  </head>
+  <body>
+    
+    
+      <h1>Firebase Basic</h1>
+      <input type="text" id="data" placeholder="Data">
+      <button onclick="addData()">Add</button>
+      <button onclick="loadData()">Load</button>
+      <br>
+      <br>
+      <h3>---------Data--------</h3>
+      <input type="text" id="search" placeholder="Search">
+      <button onclick="searchData()">Search</button>
+      <button onclick="clearSearch()">Clear</button>
+      <ol id="showData">
+        
+      </ol>
+
+    
+    
+    <script src="/script.js"></script>
+  </body>
+</html>
